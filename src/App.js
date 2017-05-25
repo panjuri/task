@@ -25,6 +25,7 @@ class App extends Component {
     return {
       id: `thing-${Date.now()}`,
       name: '',
+      completed: false,
     }
   }
 
@@ -66,4 +67,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default App;
